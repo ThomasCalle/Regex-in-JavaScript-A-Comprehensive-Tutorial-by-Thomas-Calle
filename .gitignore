@@ -1,3 +1,28 @@
+# THE FOUR HORSEMEN + THE APOCAPALYSE THOMAS CALLE'S META .GITIGNORE
+node_modules
+.node_modules
+.env
+.DS_Store
+/.pnp
+.pnp.js
+/coverage
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/build
+.build
+build
+/public
+.public
+public
+.logo.svg
+logo.svg
+package-lock.json
+.package-lock.json
+/.package-lock.json
+
+
 # Logs
 logs
 *.log
@@ -102,3 +127,4 @@ dist
 
 # TernJS port file
 .tern-port
+
