@@ -15,6 +15,7 @@ In this Regex Tutorial, you will learn how to validate the featured email addres
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Email Validation Conclusion](#email-validation-conclusion)
 - [Author](#author)
 
 ## Anchors
@@ -180,7 +181,7 @@ Escape sequences, are characters that can not be directly typed or represented i
 Character escapes serve a crucial role for ensuring accurately matching text patterns by interpreting special characters as literals. They help suppress the special meanings of metacharacters and represent characters that can't be directly typed. Thereby, ensuring the proper functioning of regex expressions that contribute to reliable email validation. 
 
 
-## Email Validation Conclusion: 
+## Email Validation Conclusion
 
 We conclude, the email matching regex **featured in this tutorial: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`** effectively validates email addresses structure. The pattern consists of several key components that contribute to its effectiveness:
 
@@ -202,5 +203,11 @@ By combining these components, the regex ensures proper structure and formality 
 Follow me on Github at [Thomas Calle](https://github.com/ThomasCalle). Additional questions or concerns? feel free to contact me.
 
 Until next, see you on the otherside!
+
+**Deployed GitHub-Gist Link:**
+[Deployed GitHub-Gist Link: Click Here](https://gist.github.com/ThomasCalle/df5f3d3441f4206d9087f9643ffff91e)
+
+**GitHub Repository:**
+[GitHub Repository: Click Here](https://github.com/ThomasCalle/Regex-in-JavaScript-A-Comprehensive-Tutorial-by-Thomas-Calle)
 
 © 2023 [Thomas Calle](https://github.com/ThomasCalle). Confidential and Proprietary. All Rights Reserved.

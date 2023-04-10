@@ -77,10 +77,10 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 5. Apply the knowledge gained from the tutorial in your own projects.
 
 ## Deployed GitHub-Gist Link:
-[Deployed GitHub-Gist Link:]()
+[Deployed GitHub-Gist Link: Click Here](https://gist.github.com/ThomasCalle/df5f3d3441f4206d9087f9643ffff91e)
 
 ## GitHub Repository:
-[GitHub Repository:]()
+[GitHub Repository: Click Here](https://github.com/ThomasCalle/Regex-in-JavaScript-A-Comprehensive-Tutorial-by-Thomas-Calle)
 
 
 ## Regex in JavaScript: A Comprehensive Tutorial by Thomas Calle Screenshots:
