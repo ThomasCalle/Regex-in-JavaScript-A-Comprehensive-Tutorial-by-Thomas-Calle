@@ -151,6 +151,15 @@ Thereby, the combination of these elements among our featured regex allows the e
 
 ## The OR Operator
 
+The OR operator, also known as alternation, is a crucial concept in regular expressions for defining alternative patterns. It's represented by the `|` symbol, allowing the regex to match either one pattern or another. Among our regex featured in this tutorial: `^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, there is no OR-Operator that exists nor explicitly used. Though it is not used, it is important to note for future use, as it is essential to understand its function for more complex patterns to come in your academic and professional career.
+
+### OR-Operator Usage Purpose:
+1. Used to specify alternative patterns among regex, enhancing its flexibility and matching capabilities.
+2. Syntax: `|` used to separate alternative patterns in the regex.
+3. E.g: The regex `^(Flying Birds| Non-Flying Birds)$` matches either the string `Flying Birds` or `Non-Flying Birds`, but cannot match both or other strings.
+
+Crucial for functioning with regular expressions, the OR operator allows the creation of flexible and adaptable patterns. Although it is not explicitly used in our featured email regex, the OR-Operator remains a key concept for those learning and utilizing regular expressions in various applications among their studies.
+
 ## Flags
 
 ## Character Escapes
