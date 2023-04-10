@@ -85,25 +85,19 @@ The group represents the 'Top-Level Domain' of the email address (the part after
 
 **Conclusion:** The above `Grouping Constructs` are useful for capturing specific parts of the matched email address, which can then be accessed or manipulated separately. Example: regular expression(regex) validates email addresses, username and domain name can then be independently obtained and assessed for accuracy, the top-level domain can then be used to ensure only accuractly sourced domain extensions are accepted.
 
-Overall, grouping constructs provide a powerful way to group characters and sub-expressions together, and apply operations to them as a single unit, allowing for more complex and flexible regular expressions.
+In conclusion, `Grouping Constructs` effectively group characters and sub-expressions together, in order to perform operations on them collectively as a single unit. Thus, allowing the use of complex and flexibly adapted regular expressions(regex).
 
-In conclusion, `Grouping Constructs` effectively group characters and sub-expressions together, in order to perform operations on them collectively as a single unit. Thus, allowing for the creation of intricate and adaptable regular expressions(regex).
+### Conclusion: Grouping Constructs Explanation
 
+Our **regex featured in this tutorial:** `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` can be read as follows:
 
-
-
-
-### Email Validation Regex Explanation
-
-The entire regex `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` can be read as follows:
-
-1. Match the start of the string.
-2. Match the local-part of the email address.
-3. Match the `@` symbol.
-4. Match the domain of the email address.
-5. Match the final period `.`.
-6. Match the top-level domain of the email address.
-7. Match the end of the string.
+1. `^` matches the start of the string.
+2. `([a-z0-9_\.-]+)` matches the local-part(user name) of the email addresss containing: lowercase letters, digits, underscores, periods, or hyphens.
+3. `@` matches the `@` symbol.
+4. `([\da-z\.-]+)` matches/captures the domain of the email address: with digits, lowercase letters, periods, or hyphens.
+5. `\.` matches the final period `.`.
+6. `([a-z\.]{2,6})` matches/captures the top-level domain containing: lowercase letters or periods with a length between 2 and 6 characters.
+7. `$` matches the end of the string.
 
 ## Author
 
