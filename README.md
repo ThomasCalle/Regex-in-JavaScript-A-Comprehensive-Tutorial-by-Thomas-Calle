@@ -5,7 +5,7 @@
 ## Description.
 In this Regex Tutorial, you will learn how to validate the featured email address regular expression (regex) **Regex Featured in This Tutorial:** `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. The tutorial provides a comprehensive breakdown and explanation of each component within the regex, simplifying the validation process for easy understanding. Upon completing this tutorial, you will gain a deeper comprehension of how the regex functions to validate and confirm the entry of a valid email address.
 
-**Deployed GitHub Gist tutorial found below:**
+**GitHub Gist: [Click Here](https://gist.github.com/ThomasCalle/df5f3d3441f4206d9087f9643ffff91e)**
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -63,11 +63,11 @@ WHEN I reach the end of the tutorial
 THEN I find a section about the author and a link to the author’s GitHub profile
 ```
 
-## Regex in JavaScript: A Comprehensive Tutorial by Thomas Calle GIF:
-### Figure 1. GIF.
+## Regex in JavaScript: A Comprehensive Tutorial by Thomas Calle
+### Chapter 01: Matching an Email: Understanding the Components by Thomas Calle GIF
 
-#### The following animation demonstrates the application functionality:
-![](./src/images/7homas7he7ank.GIF)
+#### The following animation demonstrates the GitHub Gist .md file:
+![](./Images/GitHub-Gist.GIF)
 
 ## Usage Instructions:
 1. Access the deployed GitHub Gist link.
@@ -83,9 +83,11 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 [GitHub Repository: Click Here](https://github.com/ThomasCalle/Regex-in-JavaScript-A-Comprehensive-Tutorial-by-Thomas-Calle)
 
 
-## Regex in JavaScript: A Comprehensive Tutorial by Thomas Calle Screenshots:
-### Figure 1. Deployed Application Screenshot.
-![](./src/images/7homas7he7ank_Screenshot.png)
+## Regex in JavaScript: A Comprehensive Tutorial by Thomas Calle
+### Chapter 01: Matching an Email: Understanding the Components by Thomas Calle GIF
+
+### Figure 1. Deployed Public GitHub Gist Screenshot.
+![](./Images/GitHub-Gist-Screenshot.png)
 
 ## Installation Process:
 **Set up a GitHub Gist:**
